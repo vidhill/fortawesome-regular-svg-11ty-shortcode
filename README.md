@@ -4,7 +4,7 @@
 
 Allows [@fortawesome/free-regular-svg-icons](https://www.npmjs.com/package/@fortawesome/free-regular-svg-icons) to be embedded as inline svg into [11ty](https://www.11ty.dev/) templates.
 
-See brand icon names here: [font-awesome-5-regular](https://fortawesome.com/sets/font-awesome-5-regular)
+See available icons here: [font-awesome-5-regular](https://fortawesome.com/sets/font-awesome-5-regular)
 
 ```bash
 $ npm install @vidhill/fortawesome-free-regular-11ty-shortcode --save
