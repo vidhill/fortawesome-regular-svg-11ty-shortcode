@@ -19,6 +19,7 @@
         "pre-push": "npm-run-all lint test",
         "prepublish": "npm run pre-push; npm run build",
         "release": "np",
+        "push-coverage": "codecov",
         "prepare": "husky install"
     },
     "author": "David Hill",
