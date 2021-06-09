@@ -43,6 +43,7 @@
         "@babel/cli": "^7.12.1",
         "@babel/core": "^7.14.3",
         "babel-preset-latest-node": "^5.5.1",
+        "codecov": "^3.8.2",
         "eslint": "^7.28.0",
         "eslint-config-prettier": "^8.3.0",
         "eslint-plugin-import": "^2.23.4",
