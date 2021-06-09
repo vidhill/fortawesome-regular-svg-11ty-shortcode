@@ -1,11 +1,13 @@
 # @vidhill/fortawesome-brands-11ty-shortcode
 
-Allows fortawesome brand icons to be embedded as inline svg into [11ty](https://www.11ty.dev/) templates.
+[Eleventy](https://www.11ty.dev/) shortcode.
 
-See brand icon names here: [font-awesome-5-brands](https://fortawesome.com/sets/font-awesome-5-brands)
+Allows [@fortawesome/free-regular-svg-icons](https://www.npmjs.com/package/@fortawesome/free-regular-svg-icons) to be embedded as inline svg into [11ty](https://www.11ty.dev/) templates.
+
+See brand icon names here: [font-awesome-5-regular](https://fortawesome.com/sets/font-awesome-5-regular)
 
 ```bash
-$ npm install @vidhill/fortawesome-brands-11ty-shortcode --save
+$ npm install @vidhill/fortawesome-free-regular-11ty-shortcode --save
 ```
 
 ## Setup
@@ -14,11 +16,11 @@ $ npm install @vidhill/fortawesome-brands-11ty-shortcode --save
 
 ```javascript
 const {
-    fortawesomeBrandsPlugin,
-} = require('@vidhill/fortawesome-brands-11ty-shortcode');
+    fortawesomeFreeRegularPlugin,
+} = require('@vidhill/fortawesome-free-regular-11ty-shortcode');
 
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addPlugin(fortawesomeBrandsPlugin);
+    eleventyConfig.addPlugin(fortawesomeFreeRegularPlugin);
 
     return {
         // normal eleventy config
@@ -30,11 +32,14 @@ module.exports = function (eleventyConfig) {
 
 ```javascript
 const {
-    fortawesomeBrandsShortcode,
+    fortawesomeFreeRegularShortcode,
 } = require('@vidhill/fortawesome-brands-11ty-shortcode');
 
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addShortcode('fortawesomeBrand', fortawesomeBrandsShortcode);
+    eleventyConfig.addShortcode(
+        'fortawesomeRegular',
+        fortawesomeFreeRegularShortcode
+    );
 
     return {
         // normal eleventy config
@@ -47,7 +52,7 @@ module.exports = function (eleventyConfig) {
 ### Input
 
 ```javascript
-{% fortawesomeBrand 'github' %}
+{% fortawesomeRegular 'bell' %}
 ```
 
 #### Output
@@ -56,9 +61,9 @@ module.exports = function (eleventyConfig) {
 <svg
     aria-hidden="true"
     focusable="false"
-    data-prefix="fab"
-    data-icon="github"
-    class="svg-inline--fa fa-github fa-w-16"
+    data-prefix="far"
+    data-icon="bell"
+    class="svg-inline--fa fa-bell fa-w-16"
     role="img"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 496 512"
@@ -72,7 +77,7 @@ module.exports = function (eleventyConfig) {
 Specifying a css class to be added to the `svg` element
 
 ```javascript
-{% fortawesomeBrand 'github', "social-icon" %}
+{% fortawesomeBrand 'bell', "social-icon" %}
 ```
 
 #### Output
@@ -82,8 +87,8 @@ Specifying a css class to be added to the `svg` element
     aria-hidden="true"
     focusable="false"
     data-prefix="fab"
-    data-icon="github"
-    class="svg-inline--fa fa-github fa-w-16 social-icon"
+    data-icon="bell"
+    class="svg-inline--fa fa-bell fa-w-16 social-icon"
     role="img"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 496 512"
@@ -95,7 +100,7 @@ Specifying a css class to be added to the `svg` element
 Multiple css class to be added to they svg by passing a comma separated string:
 
 ```javascript
-{% fortawesomeBrand 'github', "social-icon,unicorn-icon" %}
+{% fortawesomeBrand 'bell', "social-icon,unicorn-icon" %}
 ```
 
 ## Development

@@ -1,7 +1,7 @@
 {
-    "name": "@vidhill/fortawesome-brands-11ty-shortcode",
+    "name": "@vidhill/fortawesome-free-regular-11ty-shortcode",
     "version": "1.0.1",
-    "description": "Eleventy shortcode to embedded fortawesome brand icons as inline svgs",
+    "description": "Eleventy shortcode to embedded @fortawesome/free-regular-svg-icons as inline svgs",
     "main": "build/index.js",
     "scripts": {
         "test": "jest",
@@ -23,13 +23,13 @@
     },
     "author": "David Hill",
     "bugs": {
-        "url": "https://github.com/vidhill/fortawesome-brands-svg-11ty-shortcode/issues"
+        "url": "https://github.com/vidhill/fortawesome-regular-svg-11ty-shortcode/issues"
     },
-    "homepage": "https://github.com/vidhill/fortawesome-brands-svg-11ty-shortcode#readme",
+    "homepage": "https://github.com/vidhill/fortawesome-regular-svg-11ty-shortcode#readme",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/vidhill/fortawesome-brands-svg-11ty-shortcode.git"
+        "url": "git+https://github.com/vidhill/fortawesome-regular-svg-11ty-shortcode.git"
     },
     "keywords": [
         "eleventy",
