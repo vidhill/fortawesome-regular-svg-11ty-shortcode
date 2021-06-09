@@ -3,8 +3,6 @@
 [![CircleCI](https://circleci.com/gh/vidhill/fortawesome-regular-svg-11ty-shortcode/tree/main.svg?style=shield)](https://circleci.com/gh/vidhill/fortawesome-regular-svg-11ty-shortcode/tree/main)
 [![codecov](https://codecov.io/gh/vidhill/fortawesome-regular-svg-11ty-shortcode/branch/main/graph/badge.svg?token=HRBZY3BN0Z)](https://codecov.io/gh/vidhill/fortawesome-regular-svg-11ty-shortcode)
 
-
-
 [Eleventy](https://www.11ty.dev/) shortcode.
 
 Allows [@fortawesome/free-regular-svg-icons](https://www.npmjs.com/package/@fortawesome/free-regular-svg-icons) to be embedded as inline svg into [11ty](https://www.11ty.dev/) templates.
