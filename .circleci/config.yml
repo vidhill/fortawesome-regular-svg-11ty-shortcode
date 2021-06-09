@@ -24,6 +24,9 @@ jobs:
       # persist code coverage report
       - store_artifacts:
           path: coverage
+      - run:
+          name: Push coverage to codecov
+          command: npm run push-coverage
 
 
 workflows:
