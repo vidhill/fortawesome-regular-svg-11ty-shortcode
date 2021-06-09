@@ -1,16 +1,19 @@
 const helpers = require('@vidhill/fortawesome-11ty-shortcode-helper');
-const brandIcons = require('@fortawesome/free-brands-svg-icons');
+const freeRegularIcons = require('@fortawesome/free-regular-svg-icons');
 
-const fortawesomeBrandsShortcode = helpers.makeFortawesomeShortcode(
-    brandIcons,
-    'fab'
+const fortawesomeFreeRegularShortcode = helpers.makeFortawesomeShortcode(
+    freeRegularIcons,
+    'far'
 );
 
-function fortawesomeBrandsPlugin(eleventyConfig) {
-    eleventyConfig.addShortcode('fortawesomeBrand', fortawesomeBrandsShortcode);
+function fortawesomeFreeRegularPlugin(eleventyConfig) {
+    eleventyConfig.addShortcode(
+        'fortawesomeRegular',
+        fortawesomeFreeRegularShortcode
+    );
 }
 
 module.exports = {
-    fortawesomeBrandsShortcode,
-    fortawesomeBrandsPlugin,
+    fortawesomeFreeRegularShortcode,
+    fortawesomeFreeRegularPlugin,
 };
