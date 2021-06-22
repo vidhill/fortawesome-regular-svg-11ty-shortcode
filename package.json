@@ -48,6 +48,8 @@
         "codecov": "^3.8.2",
         "eslint": "^7.28.0",
         "eslint-config-prettier": "^8.3.0",
+        "eslint-config-vidhill": "^2.0.1",
+        "eslint-plugin-eslint-comments": "^3.2.0",
         "eslint-plugin-import": "^2.23.4",
         "eslint-plugin-jest": "^24.3.6",
         "eslint-plugin-prettier": "^3.4.0",
