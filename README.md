@@ -1,7 +1,10 @@
 # @vidhill/fortawesome-regular-11ty-shortcode
 
 [![CircleCI](https://circleci.com/gh/vidhill/fortawesome-regular-svg-11ty-shortcode/tree/main.svg?style=shield)](https://circleci.com/gh/vidhill/fortawesome-regular-svg-11ty-shortcode/tree/main)
+
 [![codecov](https://codecov.io/gh/vidhill/fortawesome-regular-svg-11ty-shortcode/branch/main/graph/badge.svg?token=HRBZY3BN0Z)](https://codecov.io/gh/vidhill/fortawesome-regular-svg-11ty-shortcode)
+
+![NPM Version](https://img.shields.io/npm/v/@vidhill/fortawesome-free-regular-11ty-shortcode?style=flat-square)
 
 [Eleventy](https://www.11ty.dev/) shortcode.
 
