@@ -36,6 +36,7 @@
     "keywords": [
         "eleventy",
         "shortcode",
+        "eleventy-plugin",
         "fortawesome",
         "fontawesome",
         "svg",
