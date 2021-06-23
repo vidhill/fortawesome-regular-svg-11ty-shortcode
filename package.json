@@ -1,6 +1,6 @@
 {
     "name": "@vidhill/fortawesome-free-regular-11ty-shortcode",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Eleventy shortcode to embedded @fortawesome/free-regular-svg-icons as inline svgs",
     "main": "build/index.js",
     "scripts": {
