@@ -44,6 +44,8 @@ jobs:
       # persist code coverage report
       - store_artifacts:
           path: coverage
+      - store_test_results:
+          path: test-results
       - run:
           name: Push coverage to codecov
           command: pnpm run push-coverage
