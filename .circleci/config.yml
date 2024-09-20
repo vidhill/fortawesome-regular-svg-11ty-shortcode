@@ -33,7 +33,6 @@ jobs:
           key: pnpm-packages-{{ checksum "pnpm-lock.yaml" }}
           paths:
             - .pnpm-store
-      - node/install-packages
       - run:
           name: Run lint
           command: pnpm run lint
