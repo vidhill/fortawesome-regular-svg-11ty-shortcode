@@ -1,5 +1,4 @@
-const { rules } = require('eslint-config-vidhill');
-
+/** @type {import("eslint").Linter.BaseConfig} */
 module.exports = {
     env: {
         es2021: true,
