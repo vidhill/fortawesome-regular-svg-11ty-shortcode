@@ -111,7 +111,7 @@ Multiple css class to be added to they svg by passing a comma separated string:
 
 ## Development
 
--   Build: `npm run build`
--   Watch build: `npm run dev`
--   Run tests: `npm run test`
--   Watch tests: `npm run test:watch`
+-   Build: `pnpm run build`
+-   Watch build: `pnpm run dev`
+-   Run tests: `pnpm run test`
+-   Watch tests: `pnpm run test:watch`
