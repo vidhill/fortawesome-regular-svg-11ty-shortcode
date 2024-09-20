@@ -1,3 +1,5 @@
+const { rules } = require('eslint-config-vidhill');
+
 module.exports = {
     env: {
         es2021: true,
@@ -9,4 +11,16 @@ module.exports = {
         sourceType: 'module',
     },
     ignorePatterns: ['build/**/*'],
+    overrides: [
+        {
+            // unit test overrides
+            files: ['*.spec.js'],
+            env: {
+                jest: false,
+            },
+            rules: {
+                'jest/no-deprecated-functions': 'off',
+            },
+        },
+    ],
 };
