@@ -1,3 +1,5 @@
+import { describe, it, expect, beforeEach, vi } from 'vitest';
+
 import {
     fortawesomeFreeRegularShortcode,
     fortawesomeFreeRegularPlugin,
@@ -24,7 +26,7 @@ describe("test 'fortawesomeFreeRegularPlugin()'", () => {
     });
 
     describe('test the plugin', () => {
-        const mockAddShortcode = jest.fn();
+        const mockAddShortcode = vi.fn();
         const eleventyConfig = {
             addShortcode: mockAddShortcode,
         };

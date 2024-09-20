@@ -108,3 +108,4 @@ dist
 
 # build output
 build/
+test-results
