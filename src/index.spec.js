@@ -44,7 +44,7 @@ describe("test 'fortawesomeFreeRegularPlugin()'", () => {
             fortawesomeFreeRegularPlugin(eleventyConfig);
             expect(mockAddShortcode).toBeCalledWith(
                 'fortawesomeRegular',
-                fortawesomeFreeRegularShortcode
+                fortawesomeFreeRegularShortcode,
             );
         });
     });
