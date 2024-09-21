@@ -44,7 +44,7 @@ const {
 module.exports = function (eleventyConfig) {
     eleventyConfig.addShortcode(
         'fortawesomeRegular',
-        fortawesomeFreeRegularShortcode
+        fortawesomeFreeRegularShortcode,
     );
 
     return {

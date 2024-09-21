@@ -3,13 +3,13 @@ const freeRegularIcons = require('@fortawesome/free-regular-svg-icons');
 
 const fortawesomeFreeRegularShortcode = helpers.makeFortawesomeShortcode(
     freeRegularIcons,
-    'far'
+    'far',
 );
 
 function fortawesomeFreeRegularPlugin(eleventyConfig) {
     eleventyConfig.addShortcode(
         'fortawesomeRegular',
-        fortawesomeFreeRegularShortcode
+        fortawesomeFreeRegularShortcode,
     );
 }
 
